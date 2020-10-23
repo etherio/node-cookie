@@ -1,13 +1,13 @@
 {
-    "name": "node-cookie",
-    "version": "1.0.0",
+    "name": "etherio-cookie",
+    "version": "1.0.1",
     "description": "",
     "main": "cookie.js",
     "keywords": ["cookie"],
-    "author": "Shin Maung<ether.io@yandex.ru>",
+    "author": "Etherio <ether.io@yandex.ru>",
     "license": "MIT",
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
-    },
-    "homepage": "https://github.com/etherio/node-cookie"
+    "repository": "https://github.com/etherio/node-cookie",
+    "scripts": {
+        "test": "node cookie.test"
+    }
 }
