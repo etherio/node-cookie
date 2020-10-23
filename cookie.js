@@ -10,8 +10,8 @@ function parse(cookie) {
         .map((c) => c.trim())
         .filter((c) => c !== "")
         .forEach((c) => {
-            const [name, value] = c.split("=");
-            cookies[name] = value;
+            const [name, ...value] = c.split("=");
+            cookies[name] = value.join("=");
         });
 
     return cookies;
