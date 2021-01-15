@@ -1,13 +1,22 @@
 {
-    "name": "etherio-cookie",
-    "version": "1.0.2",
-    "description": "",
-    "main": "cookie.js",
-    "keywords": ["cookie"],
-    "author": "Etherio <ether.io@yandex.ru>",
-    "license": "MIT",
-    "repository": "https://github.com/etherio/node-cookie",
-    "scripts": {
-        "test": "node cookie.test"
-    }
+  "name": "@etherio/cookie",
+  "version": "1.0.2",
+  "description": "## Installation",
+  "main": "cookie.js",
+  "keywords": [
+    "cookie"
+  ],
+  "author": "Etherio <ether.io@yandex.ru>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etherio/node-cookie.git"
+  },
+  "scripts": {
+    "test": "node cookie.test"
+  },
+  "bugs": {
+    "url": "https://github.com/etherio/node-cookie/issues"
+  },
+  "homepage": "https://github.com/etherio/node-cookie#readme"
 }
